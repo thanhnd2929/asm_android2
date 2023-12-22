@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg2"
+
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lấy Lại Mật Khẩu"
+        android:textSize="30sp"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/edt_FgUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg1"
+        android:padding="10dp"
+        android:hint="Nhập username"/>
+    <EditText
+        android:id="@+id/edt_FgEmail"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@drawable/bg1"
+        android:hint="Nhập email"/>
+    <Button
+        android:id="@+id/btn_FgSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SEND"
+        android:layout_gravity="center"/>
+</LinearLayout>

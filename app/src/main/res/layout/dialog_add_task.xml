@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    android:padding="5dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thêm Công Việc"
+            android:textSize="30sp"
+            android:layout_gravity="center"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/edt_DialogAdd_Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập tên công viêc" />
+
+        <EditText
+            android:id="@+id/edt_DialogAdd_Content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập nội dung công viêc"/>
+
+        <EditText
+            android:id="@+id/edt_DialogAdd_Start"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập ngày bắt bầu"/>
+        <EditText
+            android:id="@+id/edt_DialogAdd_End"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập ngày kết thúc"/>
+        <EditText
+            android:id="@+id/edt_DialogAdd_UserID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập ID User"/>
+        <Spinner
+            android:id="@+id/SP_DialogAdd_Status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"/>
+        <Button
+            android:id="@+id/btn_DialogAdd_Add"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Thêm"
+            android:backgroundTint="#3F51B5"/>
+        <Button
+            android:id="@+id/btn_DialogAdd_Cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Huỷ"
+            android:backgroundTint="#3F51B5"/>
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
